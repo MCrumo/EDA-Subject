@@ -4,7 +4,7 @@
 
 using namespace std;
 
-//PRIORITY QUEUE
+// PRIORITY QUEUE
 priority_queue < pair<int,int>, vector<pair<int,int>>, meu_ordre > Q;
 Q.push({8,2});
 Q.push({1,5});
@@ -37,3 +37,30 @@ it = S..end();
 --it;               // ULTIM element
 cout << *it << endl;
 
+
+// MAP
+map<string, int> M;
+M.insert({"pau",5});
+M.insert({"laura",1});
+M.insert({"marta",2});
+M.insert({"albert",7});
+
+cout << M.size() << endl;
+for (auto&p : M)
+   cout << p.first << "-->" << p..second << endl;
+
+auto it2 = M.find("laura);
+cout << it2->first << endl;
+cout << it2->second << endl;
+it2->second++;
+                  
+cout << M["laura"] << endl;
+M.erase("laura);
+cout << M.size() << endl;
+
+for (auto& p : M)
+    cout << p.first << "-->" << p.second << endl;
+                  
+                  
+                  
+                
