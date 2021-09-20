@@ -1,0 +1,8 @@
+Θ simbolitza:   polinomi == Θ(func)
+Ω simbolitza:   polinomi >= Ω(func)
+O simbolitza:   polinomi <= O(func)
+
+lim(n->oo) f(n)/g(n) aleshores  0 ----------> f∈O(g) i f∉Ω(g)
+                                +oo --------> f∈Ω(g) i f∉O(g)
+                                0 < l < oo -> f∈Θ(g) 
+                                
