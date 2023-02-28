@@ -5,7 +5,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME ElonMusk_v2
+#define PLAYER_NAME Miquel
 
 
 struct PLAYER_NAME : public Player {
